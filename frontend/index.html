@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kucha Palace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Kucha Palace</h1>
+        <p>Book your appointment today!</p>
+    </header>
+
+    <section id="gallery">
+        <h2>Our Services</h2>
+        <div class="image-container">
+            <img src="images/nail1.jpg" alt="Nail Art 1">
+            <img src="images/nail2.jpg" alt="Nail Art 2">
+            <img src="images/nail3.jpg" alt="Nail Art 3">
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form id="bookingForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="message">Special Request (Optional):</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Submit Booking</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
